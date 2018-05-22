@@ -1,2 +1,2 @@
-# simple-portfolio
-A simple portfolio using flickity slider
+# Simple Portfolio
+> A simple portfolio using flickity slider
