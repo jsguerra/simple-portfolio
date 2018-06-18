@@ -1,0 +1,23 @@
+/* Setup Vendor styles */
+@import 'vendor/animation';
+@import 'vendor/joseguerrauk';
+@import 'vendor/joseguerrauk-codes';
+@import 'vendor/joseguerrauk-embedded';
+@import 'vendor/joseguerrauk-ie7';
+@import 'vendor/joseguerrauk-ie7-codes';
+
+/* Setup Variables and Mixins */
+@import 'util/var';
+@import 'util/mixins';
+
+/* Setup basic grid */
+@import 'util/flexgrid';
+
+/* Other elements */
+@import 'util/alignments';
+
+/* Setup layout */
+@import 'layout';
+
+/* Setup slider */
+@import 'slider';

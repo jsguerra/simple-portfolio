@@ -1,0 +1,94 @@
+/* Define colours */
+.bg-green {
+	background-color: $green-alt;
+}
+
+.bg-orange {
+	background-color: $orange-alt;
+}
+
+.bg-grey {
+	background-color: $dark-grey;
+}
+
+.bg-blue {
+	background-color: cornflowerblue;
+}
+
+/* Slide Styles */
+.slider__slide {
+	width: 100%;
+	
+	@include breakpoint($mobile__large) {
+		flex-flow: column;
+	}
+}
+
+.slide__image {
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: calc(100vh - 30vh);
+	
+	@include breakpoint($mobile__large){
+		height: 200px;
+	}
+}
+
+.slide__entry {
+	position: relative;
+	color: $white;
+	width: 100%;
+	max-width: 35%;
+	padding: 3rem 4rem 1rem;
+	
+	@include breakpoint($tablet__large) {
+		font-size: 0.8rem;
+		line-height: 1;
+		max-width: 45%;
+	}
+	
+	@include breakpoint($tablet) {
+		max-width: none;
+	}
+	
+	h2 {
+		font-size: 2rem;
+		font-weight: 400;
+		margin-bottom: 2rem;
+	}
+	
+	h3 {
+		font-size: 1.6rem;
+		font-weight: 400;
+		margin-bottom: 1rem;
+	}
+	
+	p {
+		font-weight: 100;
+		letter-spacing: 1px;
+		line-height: 1.9rem;
+	}
+	
+	a {
+		color: $white;
+		text-decoration: none;
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+/* flickity overrides */
+.flickity-prev-next-button {
+	background-color: transparent;
+	
+	&:hover {
+		background-color: hsla(0,0%,100%,.5);
+	}
+}
+
+.flickity-prev-next-button .arrow {
+	fill: $white;
+}

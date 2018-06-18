@@ -1,0 +1,56 @@
+.flex-grid {
+    display: flex;
+    //justify-content: space-between;
+}
+
+.col {
+    flex: 1;
+}
+
+.one {
+    max-width: 7.33%;
+}
+
+.two {
+    max-width: 15.67%;
+}
+
+.three {
+    max-width: 24%;
+}
+
+.four {
+    max-width: 32.33%;
+}
+
+.five {
+    max-width: 40.67%;
+}
+
+.six {
+    max-width: 49%;
+}
+
+.seven {
+    max-width: 57.33%;
+}
+
+.eight {
+    max-width: 65.67%;
+}
+
+.nine {
+    max-width: 74%;
+}
+
+.ten {
+    max-width: 82.33%;
+}
+
+.eleven {
+    max-width: 90.67%;
+}
+
+.twelve {
+    max-width: 100%;
+}
