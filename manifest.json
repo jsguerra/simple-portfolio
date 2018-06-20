@@ -1,0 +1,30 @@
+{
+  "short_name": "Jose Guerra",
+  "name": "Jose Guerra Web Developer",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+	{
+		"src": "icon-1x.png",
+		"type": "image/png",
+		"sizes": "48x48"
+	},
+	{
+		"src": "icon-2x.png",
+		"type": "image/png",
+		"sizes": "256x256"
+	},
+	{
+		"src": "icon-3x.png",
+		"type": "image/png",
+		"sizes": "512x512"
+	}
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#317efb",
+  "background_color": "#ffffff"
+}
