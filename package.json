@@ -1,0 +1,13 @@
+{
+  "name": "joseguerrauk",
+  "version": "1.0.0",
+  "description": "Simple portfolio implementing flickity slider",
+  "main": "index.html",
+  "author": "José Guerra",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
